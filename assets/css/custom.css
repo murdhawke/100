@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
 
 * {
     margin: 0;
@@ -7,10 +8,13 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: #362F25;
+    
+    
 }
 body {
     background:#f5f5f5;
     min-height:200vh;
+    
 
 }
 header {
@@ -24,6 +28,7 @@ header {
    transition: 0.6s;
    padding: 30px 100px; 
    z-index: 1000000;
+   overflow: hidden;
 }
 header.sticky {
     padding: 2px 100px;  
@@ -49,6 +54,7 @@ header ul {
 header ul li {
     position: relative;
     list-style: none;
+    
    
 }
 header ul li a {
@@ -56,15 +62,16 @@ header ul li a {
     color: #f5f5f5;
     margin: 0 20px;
     text-decoration: none;
+    font-weight:500;
 }
 .banner {
     position: relative;
-    width:100vw;
-    height: 85vh;
+    width:100%;
+    height: 100vh;
     background: #086e75;
     background-size: cover;
     display: flex;
-    overflow: hidden;
+    overflow:hidden;
 }
 header.sticky ul li a {
     color: #000;
@@ -73,10 +80,15 @@ header.sticky ul li a {
 .colm-1 {
     position: relative;
     width: 100%;
-    top: 25%;
+    top: 28%;
     height: 40vh;
     align-items:flex-start ;
     
+    
+}
+.main-tag {
+    width: 40rem;
+    overflow: hidden;
 }
 .avatar {
     /* Rounded border */
@@ -100,6 +112,16 @@ header.sticky ul li a {
     opacity: 0;
     transition: visibility 0s 0.6s, opacity 0.6s linear;
 }
+.colm-1 {
+    margin-top: 5%;
+    margin-right: 10px;
+}
+.avatar-img {
+    margin-top: 3%;
+    width: 80vw;
+    margin-right: 50px;
+    margin-left: 20px;
+}
 .colm-1 h1, h3, h4 {
     color: #ffff;
     
@@ -113,4 +135,18 @@ header.sticky ul li a {
     font-weight: 500;
 }
 
-    
+.tagline {
+    font-weight: 700;
+}
+.subheading {
+    font-weight: 400;
+}
+.socials {
+    padding-top: 50px;
+}
+.socials ul li {
+    display: inline;
+    padding: 50px;
+    width: 250px;
+    z-index: 3;
+}

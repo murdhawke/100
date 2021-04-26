@@ -36,7 +36,6 @@ header {
 header.sticky {
     padding: 2px 100px;  
     background: #fff;
-    
 }
 header.logo {
     position: relative;
@@ -75,6 +74,7 @@ header ul li a {
     background-size: cover;
     display: flex;
     overflow:hidden;
+    border-radius: 3px;
 }
 header.sticky ul li a {
     color: #000;
@@ -155,8 +155,8 @@ header.sticky ul li a {
 }
 .profile {
     max-width: 100vw;
-    padding: 8rem;
-    padding-left: 5rem;
+    padding: 5rem;
+    padding-top: 8rem;
     overflow: hidden;
     height: 100vh;
     margin: auto;
@@ -196,7 +196,7 @@ header.sticky ul li a {
     z-index: 10000;
     width: 40rem;
     height: 40rem;
-    
+        
 }
 .skills {
     margin-top: 5;
@@ -211,8 +211,14 @@ header.sticky ul li a {
     padding: 40px;
     margin-top: 2rem;
 }
-.skills ul li {
+.skills ul li{
 display: inline   ;
 text-decoration: none;
 margin-left: 10rem;
+}
+.tech-list li {
+    font-weight: 400;
+    text-decoration: dimgray;
+    font-size: 16px;
+    font-style: italic;
 }

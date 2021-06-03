@@ -1,27 +1,26 @@
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,300,700);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .snip1519 {
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Roboto', Arial;
   position: relative;
-  overflow: hidden;
-  margin: 50px; 
-  min-width: 250px;
-  max-width: 350px;
+  overflow: hidden; 
+  min-width: 400px;
+  max-width: 400px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   width: 100%;
   background-color: #ffffff;
-  border-radius: 10px;
+  border-radius: 7px;
   border-top: 5px solid #086e75;
-  color: #9e9e9e;
   text-align: center;
   font-size: 16px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto';
     font-weight: 600;
     color: #362F25;
     
@@ -125,8 +124,9 @@ header.sticky ul li a {
     border-radius: 50%;
 
     /* Take full size */
-    height: 100%;
-    width: 100%;
+    width: auto;
+    height: auto;
+    
 }
 .avatar.hidden {
     visibility: hidden;
@@ -174,17 +174,16 @@ header.sticky ul li a {
 .profile {
     max-width: 100vw;
     padding: 5rem;
-    padding-top: 4rem;
+    position: relative;
     overflow: hidden;
-    height: 100vh;
-    margin: auto;
-    
+    height: 90vh;
+    background-color: #fff  ;
 }
 .prof-heading {
-    padding: 5px;
+    padding: 3px;
     font-weight: 600;
     float: right;
-    margin-right: 30rem;
+    margin-right: 10rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     overflow: auto;
@@ -192,6 +191,7 @@ header.sticky ul li a {
 .prof-container {
     margin-top: 5rem;
     width: 100%;
+    height: 60%;
     display: flex;
     
 }
@@ -208,7 +208,6 @@ header.sticky ul li a {
 }
 .blob {
     padding-left: 1rem;
-    padding-top: 5rem;
     margin: auto;
     position: relative;
     z-index: 10000;
@@ -217,27 +216,24 @@ header.sticky ul li a {
         
 }
 .skills {
-    margin-top: 5;
+    margin-top: 5rem;
+    padding: 10px   ;
     overflow: hidden;
     display:inline;
-    left: 0;
-    max-width: 20rem;
+    max-width: 10rem;
 }
 .skill-subheading {
-    margin-left: 40%;
     width: 400px;
-    padding: 40px;
     margin-top: 2rem;
     font-weight: 500;
 }
 .skills ul li{
 display: inline   ;
 text-decoration: none;
-margin-left: 10rem;
+margin-left: 5rem;
 }
 .tech-list li {
     font-weight: 400;
-    text-decoration: dimgray;
     font-size: 16px;
     font-style: italic;
 }
@@ -247,10 +243,12 @@ margin-left: 10rem;
   box-sizing: border-box;
   -webkit-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(59, 61, 60, 0.3) 0px 30px 60px -30px;
+
 }
 
 .snip1519 figcaption {
-  padding: 10% 10% 20% 10%;
+  padding: 5% 10% 5% 10%;
   margin: 0;
  
 }
@@ -258,9 +256,9 @@ margin-left: 10rem;
 .snip1519 i {
   font-size: 54px;
   color: #fff;
-  width: 80px;
-  line-height: 80px;
-  background-color: #086e75;
+  width: 70px;
+  line-height: 20px;
+  background-color: #3F3E55;
   border-radius: 50%;
   padding: 0;
   margin: 0 0 10px;
@@ -280,6 +278,7 @@ margin-left: 10rem;
   font-size: 0.9em;
   font-weight: 400;
   margin: 0 0 20px;
+  line-height: 25px
 }
 
 .snip1519 .button {
@@ -319,39 +318,47 @@ figure.snip1519 {
 }
 .proj-row1 {
     display: flex;
-    width: 90vw;
-    margin: auto;
+    margin-left: 50%;
+    width: 85vw;
+    max-height: 60vh;
     justify-content: space-around;
     margin-top: 10px;
-    padding: 10px;
+    padding:10px;
     overflow: hidden;
 }
 .proj-row2 {
     display: flex;
-    width: 90vw;
+    width: 85vw;
     margin: auto;
     justify-content: space-around;
     margin-top: 50px;
-    padding: 10px;
+    padding: 5px;
     overflow: hidden;
 }
 .proj-list li  {
-    margin: auto;
+    margin: 5rem;
     margin-top: 10px;
     overflow: hidden;
 }
 
 .mw-heading {
-    margin-left: 45%;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
+    margin-left: 50%;
+    top: 50%;
+    bottom: 50%;
+    margin-bottom: 1rem;
     padding: 0;
+}
+.my-work {
+    margin-top: 5rem;
+    position: relative;
+    width: 100vw;
 }
 
 /*=========contact form css==================*/
 .contact-form{
     background: #fff;
-    margin-top: 10%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     width: 70%;
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(59, 61, 60, 0.3) 0px 30px 60px -30px;
@@ -366,15 +373,16 @@ figure.snip1519 {
 
 }
 .contact {
-    margin-bottom: 5%;
-    padding: ;
+    padding:5rem ;
+    background-color: #fff;
+    position: relative;
 }
 .contact-form .form-control{
     border-radius:0.rem;
     height: 2rem;
     margin: 18px;
     padding: 20px;
-    width: 80%;
+    width: 70%;
 }
 .contact-image{
     text-align: center;

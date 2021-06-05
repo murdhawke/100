@@ -7,7 +7,7 @@
   min-width: 400px;
   max-width: 400px;
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
   width: 100%;
   background-color: #ffffff;
   border-radius: 7px;
@@ -243,8 +243,6 @@ margin-left: 5rem;
   box-sizing: border-box;
   -webkit-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(59, 61, 60, 0.3) 0px 30px 60px -30px;
-
 }
 
 .snip1519 figcaption {
@@ -256,12 +254,13 @@ margin-left: 5rem;
 .snip1519 i {
   font-size: 54px;
   color: #fff;
-  width: 70px;
+  width: 80px;
+  height: 80px;
   line-height: 20px;
   background-color: #3F3E55;
   border-radius: 50%;
   padding: 0;
-  margin: 0 0 10px;
+  margin: 0 0 20px;
   text-align: center;
   display: inline-block;
 }
@@ -316,6 +315,7 @@ figure.snip1519 {
     margin: auto;
     padding-top: 20px;
 }
+.iconify { width: 80px; height: 80px; }
 .proj-row1 {
     display: flex;
     margin-left: 50%;
@@ -331,7 +331,7 @@ figure.snip1519 {
     width: 85vw;
     margin: auto;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 100px;
     padding: 5px;
     overflow: hidden;
 }
@@ -342,14 +342,16 @@ figure.snip1519 {
 }
 
 .mw-heading {
-    margin-left: 50%;
-    top: 50%;
-    bottom: 50%;
-    margin-bottom: 1rem;
-    padding: 0;
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 45%;
+}
+.mw-heading h2 {
+    padding-top: 10px;
 }
 .my-work {
-    margin-top: 5rem;
+    margin-top: 1rem;
     position: relative;
     width: 100vw;
 }
@@ -373,7 +375,7 @@ figure.snip1519 {
 
 }
 .contact {
-    padding:5rem ;
+    padding:1rem ;
     background-color: #fff;
     position: relative;
 }
@@ -394,6 +396,7 @@ figure.snip1519 {
 }
 .contact-form form{
     padding: 10%;
+    margin-top: 5%;
 }
 
 .contact-form h3{
@@ -416,6 +419,9 @@ figure.snip1519 {
     font-weight: 600;
     color: #fff;
     cursor: pointer;
+}
+.js-scrollable {
+    top: 0;
 }
 .btnContactSubmit 
 {

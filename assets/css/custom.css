@@ -395,7 +395,10 @@ figure.snip1519 {
     transform: rotate(20deg);
 }
 .contact-form form{
-    padding: 10%;
+    padding-bottom:5% ;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
     margin-top: 5%;
 }
 
@@ -405,6 +408,9 @@ figure.snip1519 {
     text-align: center;
     color: #086e75;
 }
+textarea {
+    resize: none;
+  }
 .buttonContact > input {
     width: 30%;
 }
